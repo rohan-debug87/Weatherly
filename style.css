@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: #222;
+
+    background-image: url(./images/space.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.card {
+   
+
+    background: linear-gradient(135deg, #141e30, #243b55);
+    
+
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    
+}
+
+.search {
+    width: 100%;
+    display: block;
+    align-items: center;
+    
+}
+
+.search input {
+    width: 319px;
+    margin-right: 16px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 30px;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search button img{
+    width: 21px;
+}
+.weather-icon{
+    width: 127px;
+}
+
+.temp{
+    font-size: 69px;
+    font-weight: 450;
+}
+.city{
+    font-size: 52px;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 42px;
+}
+
+.error{
+    color: red;
+    display: none;
+    margin-top: 20px;
+}
