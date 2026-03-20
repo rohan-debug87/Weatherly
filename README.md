@@ -7,7 +7,7 @@ The app fetches live weather data from a weather API and displays important deta
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-username.github.io/weatherly/
+🔗 https://rohan-debug87.github.io/Weatherly/
 
 ---
 
@@ -58,7 +58,7 @@ weather-app/
 If you want to run this project locally:
 
 ```bash
-git clone https://github.com/your-username/weatherly.git
+git clone https://github.com/rohan-debug87/weatherly.git
 cd weatherly
 ```
 
@@ -83,11 +83,8 @@ const apiKey = "YOUR_API_KEY";
 
 ## 📸 Screenshot
 
-(Add a screenshot of your app here)
+<img width="1397" height="1079" alt="image" src="https://github.com/user-attachments/assets/d9160bff-ec46-4352-89fe-ab1004bfdb84" />
 
-```
-![Weather App Screenshot](images/screenshot.png)
-```
 
 ---
 
